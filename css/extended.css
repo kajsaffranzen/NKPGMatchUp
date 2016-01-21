@@ -1,0 +1,53 @@
+
+@import url('https://www.google.com/fonts#ChoosePlace:select/Collection:Montserrat');
+
+
+#info{
+	font-size: 13pt;
+	color: #121C1B;
+	text-align: left;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Montserrat';
+	/*background-color: pink;*/
+	/*margin-left: 100px;*/
+}
+
+.landing-img{
+	width: 400px;
+	height: 400px;
+	/*margin: 7vw 0px 0px 0px;*/
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+	#info{
+		font-size: 13pt;
+	}
+
+	.landing-img{
+		width: 350px;
+		height: 350px;
+		margin: 7vw 0px 0px 0px;
+	}
+}
+
+@media (min-width: 430px) and (max-width: 768px){
+	.landing-img{
+		width: 380px;
+		height: 380px;
+		margin: 0px 0px 5vw 0px;
+	}
+}
+
+@media (min-width: 0px) and (max-width: 430px){
+	.landing-img{
+		width: 160px;
+		height: 160px;
+		margin: 0px 0px 5vw 0px;
+	}
+
+	#info{
+		font-size: 12pt;
+		margin: 0px 3vw 0px 3vw; 
+	}
+}
