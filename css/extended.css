@@ -1,7 +1,44 @@
 
 @import url('https://www.google.com/fonts#ChoosePlace:select/Collection:Montserrat');
 
+.top{
+	position: relative;
+	width: inherit;
+ 	height: inherit;
+}
 
+#about{
+	position: relative;
+	width: inherit;
+ 	height: inherit;
+}
+
+.top .top-content{
+	position: relative;
+	width: 100%;
+	padding: 100px 100px;
+	text-align: center;
+}
+
+.wrapper{
+	background: url(../img/web_bg.png) no-repeat center center fixed;
+	/*background: #121C1B;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#nav_img{
+	width: 90px;
+	height: 70px;
+}
+
+#nav{
+	color: #121C1B;
+}
+
+/*texter */
 #info{
 	font-size: 13pt;
 	color: #121C1B;
@@ -13,21 +50,78 @@
 	/*margin-left: 100px;*/
 }
 
+#info-about{
+	font-size: 13pt;
+	color: #121C1B;
+	text-align: left;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Montserrat';
+}
+
+#info-about2{
+	font-size: 13pt;
+	color: #121C1B;
+	text-align: left;
+	font-weight: bold;
+	margin: 0px 0px 0px 0px;
+	font-family: 'Montserrat';
+}
+
+#heading{
+	font-family: 'Montserrat';
+	color: #121C1B;
+	font-weight: bold;
+	/*margin-bottom: 100px;*/
+	margin: 0px 0px 40px 0px;
+}
+
+#about-us{
+	font-family: 'Montserrat';
+	color: #121C1B;
+	font-size: 13pt;
+	text-align: center;
+}
+
+/*images*/
+.profile-img{
+	width: 200px;
+	height: 200px;
+}
+
 .landing-img{
 	width: 400px;
 	height: 400px;
 	/*margin: 7vw 0px 0px 0px;*/
 }
 
+
+#box{
+	display: block;
+	position: absolute;
+	background: #569F98;
+	-webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+#box:hover {
+	opacity: 0.9;
+}
+
+
 @media (min-width: 769px) and (max-width: 992px){
-	#info{
-		font-size: 13pt;
-	}
 
 	.landing-img{
 		width: 350px;
 		height: 350px;
-		margin: 7vw 0px 0px 0px;
+		margin: 7vw 0px 5vw 0px;
+	}
+	#info-about{
+		margin: 0px 0px 20px 25vw;
+	}
+	#info-about2{
+		margin: 0px 0px 20px 25vw;
 	}
 }
 
@@ -37,9 +131,15 @@
 		height: 380px;
 		margin: 0px 0px 5vw 0px;
 	}
+	#info-about{
+		margin: 0px 0px 20px 30vw;
+	}
+	#info-about2{
+		margin: 0px 5vw 0px 5vw;
+	}
 }
 
-@media (min-width: 0px) and (max-width: 430px){
+@media (min-width: 330px) and (max-width: 430px){
 	.landing-img{
 		width: 160px;
 		height: 160px;
@@ -48,6 +148,22 @@
 
 	#info{
 		font-size: 12pt;
-		margin: 0px 3vw 0px 3vw; 
+		margin: 0px -18vw 0px -18vw; 
 	}
+
+
+}
+
+@media (min-width: 0px) and (max-width: 330px){
+	.landing-img{
+		width: 160px;
+		height: 160px;
+		margin: 0px 0px 5vw 0px;
+	}
+
+	#info{
+		font-size: 12pt;
+		margin: 0px -20vw 0px -20vw; 
+	}
+
 }
