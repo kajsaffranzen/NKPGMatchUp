@@ -96,6 +96,17 @@
 	text-align: justify;
 }
 
+#info-footer{
+	font-size: 13pt;
+	color: #121C1B;
+	text-align: left;
+	font-weight: lighter;
+	margin: 5vh 0px 0px 0px;
+	font-family: 'Open Sans';
+	text-align: justify;
+	text-align: right;
+}
+
 /*images*/
 .profile-img{
 	width: 200px;
@@ -106,6 +117,10 @@
 	width: 400px;
 	height: 400px;
 	/*margin: 7vw 0px 0px 0px;*/
+}
+
+.nkpg{
+
 }
 
 
@@ -163,6 +178,14 @@
 		font-size: 12pt;
 		margin: 0px -18vw 0px -18vw; 
 	}
+	#info-footer{
+		text-align: center;
+	}
+	#container-foot{
+	margin-top: -15vw;
+	margin-bottom: -10vw;
+	padding: 0px;
+}
 
 
 }
