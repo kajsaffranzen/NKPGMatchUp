@@ -78,6 +78,10 @@
 	text-align: justify;
 }
 
+.akt{
+	text-indent:7em;
+	line-height: 2.5;
+}
 #heading{
 	font-family: 'Open Sans';
 	color: #121C1B;
