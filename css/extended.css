@@ -113,7 +113,6 @@ h6.info-footer{
 
 .landing-img{
 	width: 400px;
-	height: 400px;
 	/*margin: 7vw 0px 0px 0px;*/
 }
 
@@ -140,7 +139,6 @@ h6.info-footer{
 
 	.landing-img{
 		width: 350px;
-		height: 350px;
 		margin: 7vw 0px 5vw 0px;
 	}
 	#info-about{
@@ -154,7 +152,6 @@ h6.info-footer{
 @media (min-width: 430px) and (max-width: 768px){
 	.landing-img{
 		width: 380px;
-		height: 380px;
 		margin: 0px 0px 5vw 0px;
 	}
 	#info-about{
@@ -168,7 +165,6 @@ h6.info-footer{
 @media (min-width: 330px) and (max-width: 430px){
 	.landing-img{
 		width: 160px;
-		height: 160px;
 		margin: 0px 0px 5vw 0px;
 	}
 
@@ -194,7 +190,6 @@ aside{
 @media (min-width: 0px) and (max-width: 330px){
 	.landing-img{
 		width: 160px;
-		height: 160px;
 		margin: 0px 0px 5vw 0px;
 	}
 
