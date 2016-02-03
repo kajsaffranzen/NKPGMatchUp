@@ -1,0 +1,27 @@
+{"all":[
+    {
+    	"education":"Civilingenjör i Medieteknik", 
+    	"website":"medieteknik.nu/se/",
+        "img":"img/educations/mt.jpg",
+        "info":"Som student vid Medieteknikutbildningen lär man sig tekniken bakom medierna och hur man på bästa sätt omvandlar informationsflöden så att det passar våra sinnen. I det moderna samhället spelar information i alla dess former en allt viktigare roll. Som medietekniker kan man bland annat arbeta med att skapa virtuella möbler till möbelföretag, specialeffekter till filmproduktioner eller bilda 3D-format av röntgenbilder."
+    },
+    {
+    	"education":"Civilingenjör i Elekronikdesign",
+    	"website":"elektronikdesign.com/",
+        "img":"img/educations/ed.png",
+        "info":"Elektronikdesign är en civilingenjörsutbildning med inriktning mot elektronikproduktion och tillverkning."
+    },
+    {
+    	"education":"Grafisk design och Kommunikation", 
+    	"website":"gdk.nu/",
+        "img":"img/educations/gdk.png",
+        "info" : "GDK är en kandidatutbildning som ger bred kunskap inom området grafisk design. Förutom att man lär sig hantera det tekniska hantverket i Adobe-programmen samt hur grafiskt material kommunicerar i anseende till form och färg, så ger utbildningen också kunskap om tekniken bakom."
+        
+    },
+    {
+    	"education":"Kultur Samhälle och Mediegestaltning",
+    	"website":"www.skumsektionen.se/",
+        "img":"img/educations/ksm.png",
+        "info":"KSM är en tvärmedial utbildning där flera olika medieformer och uttryck kombineras. Audio, video och utställning är tre inriktningar som studenterna kan välja att fördjupa sig i. På utbildningen varvas det med projektarbeten och vetenskapliga studier. Utbildningen ger studenterna verktyg att förstå sammanhang och tillgång till en analytisk blick. Att kritiskt kunna kontextualisera text och bild i samtiden är en del av utbildningens kärna. Efter utbildningen har KSM-studenter arbetat inom event, PR och reklam, som producenter, projektledare, museiintendenter. Andra arbetar som journalister inom press, radio och TV, eller som kommunikatörer, informatörer och marknadsförare."
+    }
+]}

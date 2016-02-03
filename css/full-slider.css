@@ -52,14 +52,14 @@ body {
 
 #website{
    font-family: 'Open Sans';
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: bold;
     /*margin-top: 13px;*/ 
 }
 
 #link{
     font-family: 'Open Sans';
-    font-size: 19pt;
+    font-size: 19px;
     color: #000000;
     font-weight: lighter;
     /*margin-top: 13px;*/
@@ -90,6 +90,10 @@ body {
     -o-background-size: cover;
 }
 
+#edu-img{
+    margin-left: -10vw;
+}
+
 footer {
     margin: 50px 0;
 }
@@ -102,6 +106,10 @@ footer {
 
     #company{
         font-size: 20px;
+    }
+
+    #edu-img{
+        width: 100px;
     }
 }
 
@@ -122,9 +130,23 @@ footer {
     }
 
     #company{
-        font-size: 60px;
+        font-size: 40px;
+        margin-top: 30px;
     }
 
+    #edu-img{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #infoTxt{
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    #website, #link{
+        font-size: 30px;
+    }
 
 
 }

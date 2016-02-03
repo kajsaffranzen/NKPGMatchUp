@@ -13,3 +13,10 @@ function getCompanyId(id){
 
 
 }
+
+function getEducationId(id){
+	localStorage.setItem('education', id);
+
+	window.location.href = window.location.href+"education.html";
+
+}
