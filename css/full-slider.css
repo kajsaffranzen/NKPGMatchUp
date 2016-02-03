@@ -1,0 +1,98 @@
+ @import url('https://www.google.com/fonts#ChoosePlace:select/Collection:Open+Sans');
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+}
+
+#heading{
+    font-size: 35pt;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #121C1B;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Open Sans';
+    text-align: center;
+    
+}
+
+.top{
+    font-family: 'Open Sans';
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.bottom{
+    margin: 6vw 0 0 0;
+}
+
+#about{
+
+    color: #121C1B;
+    margin: 0 0 10px;
+    text-align: justify;
+    font-family: 'Open Sans';
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/web_bg.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media (min-width: 330px) and (max-width: 430px){
+
+    #info{
+        font-size: 12pt;
+        margin: 0px -18vw 0px -18vw; 
+    }
+
+    #about{
+        margin: 24px;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 330px){
+
+
+    #info{
+        font-size: 12pt;
+        margin: 0px -20vw 0px -20vw; 
+    }
+
+    #about{
+
+    }
+
+}
