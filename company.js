@@ -38,5 +38,5 @@ function nextCompany(){
 function changeContent(id){
 	console.log("i changeContent: " + id);
 	document.getElementById("company").innerHTML = data.all[id].company;
-	document.getElementById('website').innerHTML = data.all[id].website;
+	document.getElementById("link").innerHTML = data.all[id].website;
 }

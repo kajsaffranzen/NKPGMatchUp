@@ -41,6 +41,30 @@ body {
     margin-top: 13px;
 }
 
+#company{
+    margin: 0px 0px 2vw 0px;
+}
+
+#infoTxt{
+    font-family: 'Open Sans';
+    text-align: justify;
+}
+
+#website{
+   font-family: 'Open Sans';
+    font-size: 20pt;
+    font-weight: bold;
+    /*margin-top: 13px;*/ 
+}
+
+#link{
+    font-family: 'Open Sans';
+    font-size: 19pt;
+    color: #000000;
+    font-weight: lighter;
+    /*margin-top: 13px;*/
+}
+
 .bottom{
     margin: 6vw 0 0 0;
 }
@@ -70,7 +94,19 @@ footer {
     margin: 50px 0;
 }
 
-@media (min-width: 330px) and (max-width: 430px){
+
+@media (min-width: 430px) and (max-width: 768px){
+    .top{
+        font-size: 35px;
+    }
+
+    #company{
+        font-size: 20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
 
     #info{
         font-size: 12pt;
@@ -81,6 +117,16 @@ footer {
         margin: 24px;
     }
 
+    .top{
+        font-size: 35px;
+    }
+
+    #company{
+        font-size: 60px;
+    }
+
+
+
 }
 
 @media (min-width: 0px) and (max-width: 330px){
@@ -90,9 +136,9 @@ footer {
         font-size: 12pt;
         margin: 0px -20vw 0px -20vw; 
     }
+    .top{
+            font-size: 20pt;
+        }
 
-    #about{
-
-    }
 
 }
