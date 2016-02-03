@@ -73,9 +73,10 @@
                     <li>
                         <a class="page-scroll" id="nav" href="#about">Om kvällen</a>
                     </li>
-                    <!-- <li>
+
+                    <li>
                         <a class="page-scroll" id="nav" href="#services">Företag</a>
-                    </li> -->
+                    </li>
                     <!-- <li>
                         <a class="page-scroll" href="#us">Om oss</a>
                     </li> -->
@@ -271,12 +272,18 @@
         </section>  -->
 
 
-    <section class="no-padding" id="portfolio">
+    <section class="no-padding" id="services" style="padding-bottom:200px;">
         <div class="container-fluid">
+            <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <h2 class="section-heading" id="heading" >Företag </br></h2>
+                    </div>
+                </div> 
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" onClick="getCompanyId('0');">
-                        <img src="img/portfolio/mt.jpg" class="img-responsive" alt="">
+                    <!-- <a class="portfolio-box" onClick="getCompanyId('0');"> -->
+                     <a href="http://www.perkit.co/" class="portfolio-box" target="_blank">
+                        <img src="img/companies/perkit_logo.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -287,8 +294,10 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a class="portfolio-box" onClick="getCompanyId(1);">
-                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="" onClick="getCompanyId();">
+<!--                     <a class="portfolio-box" onClick="getCompanyId(1);">
+ -->                       
+                     <a href="http://www.millenway.com/" class="portfolio-box" target="_blank">
+                         <img src="img/companies/millenway_logo.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
@@ -299,18 +308,19 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a onClick="getCompanyId(2);" class="portfolio-box">
-                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="" href>
+                    <!-- <a onClick="getCompanyId(2);" class="portfolio-box"> -->
+                    <a href="http://www.voysys.se/" class="portfolio-box" target="_blank">
+                        <img src="img/companies/voysys_logo.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-name">
-                                    Interspectral
+                                    Voysys
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-sm-6">
+                <!-- <div class="col-lg-4 col-sm-6">
                     <a href="#" class="portfolio-box">
                         <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
@@ -345,7 +355,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
