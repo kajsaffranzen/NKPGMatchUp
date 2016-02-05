@@ -12,11 +12,15 @@ var data;
 	    data = json; 
 
 	    console.log(data.all[theId])
+
+
+	    
+		
+
 	    changeContent(theId);
 	    	    
 	});
 
-	console.log("hej")
 
 
 function prevCompany(){
@@ -37,11 +41,20 @@ function nextCompany(){
 	changeContent(theId);
 }
 
+//converts the \n in json to <br> in html
+function convertToHTMLVisibleNewline(value) {
+    if (value != null && value != "") {
+        return value.replace(/\n/g, "<br/>");
+    } else {
+        return value;
+    }
+}
+
 
 function changeContent(id){
 	
 	document.getElementById("edu-img").src= data.all[id].img;
 	document.getElementById("company").innerHTML = data.all[id].education;
-	document.getElementById("infoTxt").innerHTML = data.all[id].info;
+	document.getElementById("infoTxt").innerHTML = convertToHTMLVisibleNewline(data.all[id].info);
 	document.getElementById("link").innerHTML = data.all[id].website;
 }
