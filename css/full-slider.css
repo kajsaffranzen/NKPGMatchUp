@@ -1,7 +1,18 @@
+
  @import url('https://www.google.com/fonts#ChoosePlace:select/Collection:Open+Sans');
 
-html,
-body {
+html, body {
+    height: 100%;
+    width: 100%
+}
+
+.wrapper{
+    background: url(../img/web_bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
     height: 100%;
 }
 
@@ -10,6 +21,8 @@ body {
 .active {
     height: 100%;
 }
+
+#arrows{}
 
 .carousel-inner {
     height: 100%;
@@ -98,6 +111,49 @@ footer {
     margin: 50px 0;
 }
 
+@media (min-width: 769px) and (max-width: 992px){
+
+    #info{
+        font-size: 12pt;
+        margin: 0px -18vw 0px -18vw; 
+    }
+
+    #about{ margin: 24px; }
+
+    .top{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .wrapper{
+        height: 120%;
+    }
+
+    #company{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    #edu-img{
+        width: 140%;
+    }
+
+    #infoTxt{
+        font-size: 33px;
+        font-weight: lighter;
+        margin: 0 -4vw 6vh 0;
+    }
+
+    #website, #link{
+        font-size: 40px;
+    }
+
+    #arrows{
+        font-size: 150px;
+    }
+
+
+}
 
 @media (min-width: 430px) and (max-width: 768px){
     .top{
@@ -108,48 +164,52 @@ footer {
         font-size: 20px;
     }
 
-    #edu-img{
-        width: 100px;
+    #edu-img{ margin-left: 5vw; }
+
+    #company{
+        font-size: 20pt;
+        font-weight: bold;
+        margin: 2vh 6vw 1vh;
+    }
+    #infoTxt{
+        margin: 0 6vw;
+        font-size: larger;
+    }
+    #arrows{
+        font-size: 150px;
     }
 }
 
-
-@media (min-width: 769px) and (max-width: 992px){
-
-    #info{
-        font-size: 12pt;
-        margin: 0px -18vw 0px -18vw; 
-    }
-
-    #about{
-        margin: 24px;
-    }
-
+@media (min-width: 330px) and (max-width: 430px){
     .top{
         font-size: 35px;
     }
 
     #company{
-        font-size: 40px;
-        margin-top: 30px;
+        font-size: 20px;
     }
 
-    #edu-img{
-        width: 100%;
-        margin-left: 10px;
+    #edu-img{ 
+        width: 90%;
+        margin-left: 5vw; 
     }
 
+    #company{
+        font-size: 20pt;
+        font-weight: bold;
+        margin: 2vh 6vw 1vh;
+    }
     #infoTxt{
-        font-size: 25px;
-        font-weight: lighter;
+        margin: 0 6vw;
+        font-size: larger;
     }
-
-    #website, #link{
-        font-size: 30px;
+    #arrows{
+        font-size: 150px;
     }
-
-
 }
+
+
+
 
 @media (min-width: 0px) and (max-width: 330px){
 
@@ -161,6 +221,13 @@ footer {
     .top{
             font-size: 20pt;
         }
+
+    #arrows{
+        font-size: 150px;
+    }
+    .wrapper{
+        height: 100%;
+    }
 
 
 }
