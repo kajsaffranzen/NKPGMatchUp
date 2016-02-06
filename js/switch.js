@@ -9,7 +9,7 @@ function getCompanyId(id){
 
 	console.log("i switch: " + theId);
 
-	window.location.href = window.location.href+"companies.html";
+	window.location.href = "companies.html";
 
 
 }
@@ -17,6 +17,6 @@ function getCompanyId(id){
 function getEducationId(id){
 	localStorage.setItem('education', id);
 
-	window.location.href = window.location.href+"education.html";
+	window.location.href = "education.html";
 
 }
