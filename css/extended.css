@@ -186,9 +186,13 @@ h6.info-footer{
 		text-align: center;
 	}
 	#container-foot{
-	margin-top: -15vw;
-	margin-bottom: -10vw;
-	padding: 0px;
+		margin-top: -15vw;
+		margin-bottom: -10vw;
+		padding: 0px;
+	}
+	/*.wrapper{
+		background: url(../img/web_bg.png) no-repeat center center fixed;
+	}*/
 }
 
 aside{
