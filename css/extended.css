@@ -105,7 +105,7 @@
 	text-indent:7em;
 	line-height: 2.5;
 }
-#heading{
+#heading, #head-name, #head-info{
 	font-family: 'Open Sans';
 	color: #121C1B;
 	font-weight: light;
@@ -221,7 +221,7 @@ h6.info-footer{
 
 	#button{
 		width: 160px;
-		height: 30px;
+		height: 44px;
 		font-size: 9pt;
 		margin: 2vh 0 4vh 0;
 	}
@@ -237,12 +237,45 @@ aside{
 @media (min-width: 0px) and (max-width: 330px){
 	.landing-img{
 		width: 160px;
-		margin: 0px 0px 5vw 0px;
+		margin: 0px 0px 5vw -7vw;
+	}
+
+	.profile-img{
+		width: 180px;
+
 	}
 
 	#info{
 		font-size: 12pt;
 		margin: 0px -20vw 0px -20vw; 
+	}
+	#info-about{
+		font-size: 11pt;
+		margin: 0 3vw;
+	}
+
+	#info-about2{
+		font-size: 11pt;
+		margin: 0 3vw;
+	}
+
+	#button{
+		width: 148px;
+		height: 38px;
+		font-size: 8pt;
+		margin: 2vh 0 4vh -7vw;
+	}
+
+	#head-info{
+		font-size: 10pt;
+	}
+
+	#head-name{
+		font-size: 15pt;
+	}
+
+	#infoTxt{
+		font-size: 29pt;
 	}
 
 }

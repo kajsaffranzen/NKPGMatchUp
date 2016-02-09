@@ -99,19 +99,7 @@ footer {
 }
 
 
-@media (min-width: 430px) and (max-width: 768px){
-    .top{
-        font-size: 35px;
-    }
 
-    #company{
-        font-size: 20px;
-    }
-
-    #edu-img{
-        width: 100px;
-    }
-}
 
 
 @media (min-width: 769px) and (max-width: 992px){
@@ -151,8 +139,21 @@ footer {
 
 }
 
-@media (min-width: 0px) and (max-width: 330px){
+@media (min-width: 430px) and (max-width: 768px){
+    .top{
+        font-size: 35px;
+    }
 
+    #company{
+        font-size: 20px;
+    }
+
+    #edu-img{
+        width: 100px;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 330px){
 
     #info{
         font-size: 12pt;
@@ -160,7 +161,15 @@ footer {
     }
     .top{
             font-size: 20pt;
-        }
+    }
+
+    #infoTxt{
+        font-size: 21pt;
+    }
 
 
 }
+
+
+
+
