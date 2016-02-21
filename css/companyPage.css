@@ -1,0 +1,229 @@
+ @import url('https://www.google.com/fonts#ChoosePlace:select/Collection:Open+Sans');
+
+html,
+body {
+    height: 100%;
+}
+
+/*.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}*/
+
+.hej{
+    fixed: top;
+}
+
+.nav-top{
+	font-weight: bold;
+	font-family: 'Open Sans';
+	color: #121C1B;
+	font-size: 1em;
+	text-align: right;
+	margin: 2vh 2vw 0 2vw;
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+}
+
+#heading{
+    font-size: 35pt;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #121C1B;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Open Sans';
+    text-align: center;
+    
+}
+
+.top{
+    font-family: 'Open Sans';
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+#company{
+    margin: 0px 0px 2vw 0px;
+}
+
+#infoTxt{
+    font-family: 'Open Sans';
+    text-align: justify;
+}
+
+#website{
+   font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    /*margin-top: 13px;*/ 
+}
+
+#link{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    color: #000000;
+    font-weight: lighter;
+    /*margin-top: 13px;*/
+}
+
+.bottom{
+    margin: 6vw 0 0 0;
+}
+
+#about{
+
+    color: #121C1B;
+    margin: 0 0 10px;
+    text-align: justify;
+    font-family: 'Open Sans';
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+#fill {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/web_bg.png');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#company-img{
+    margin-left: -10vw;
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+
+	.top{
+        font-size: 2.5em;
+    }
+    #arrows{
+    	font-size: 5.5em;
+    }
+    
+    #info{
+        font-size: 12pt;
+        margin: 0px -18vw 0px -18vw; 
+    }
+
+    #about{
+        margin: 24px;
+    }
+
+    
+
+    #company{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    #company-img{
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    #infoTxt{
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    #website, #link{
+        font-size: 30px;
+    }
+
+
+}
+
+@media (min-width: 430px) and (max-width: 768px){
+    .top{
+        font-size: 35px;
+    }
+
+    #company{
+        font-size: 1.9em;
+    }
+
+    #company-img{
+        /*width: 100px;*/
+        width: 600px;
+        margin-left: 8vw;
+    }
+}
+
+@media (min-width: 330px) and (max-width: 430px){
+	.top{
+		font-size: 1.2em;
+	}
+	#arrows{
+    	font-size: 3.4em;
+    }
+
+	#company-img{
+		width: 250px;
+		margin-left: 10vw;
+	}
+
+	#website, #link{
+    	font-size: 1em;
+    }
+
+	#company{
+        font-size: 1.2em;
+    	font-weight: bold;
+    }
+    #infoTxt{
+    	font-size: 0.9em;
+    }
+
+}
+
+@media (min-width: 1px) and (max-width: 330px){
+
+    #info{
+        font-size: 12pt;
+        margin: 0px -20vw 0px -20vw; 
+    }
+    .top{
+        font-size: 1.2em;
+    }
+    #arrows{
+    	font-size: 3.4em;
+    }
+
+    #company-img{
+    	width: 200px;
+    	margin-left: 13vw;
+    }
+
+    #website, #link{
+    	font-size: 1em;
+    }
+
+    #company{
+    	font-size: 1.2em;
+    	font-weight: bold;
+    }
+
+    #infoTxt{
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+
+
+}

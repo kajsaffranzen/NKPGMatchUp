@@ -1,18 +1,137 @@
 {"all":[
     {
-    	"company":"Perkit", 
-    	"website":"www.perkit.co"
+    	"company":"Voysys", 
+    	"website":"www.voysys.se/",
+        "img":"img/companies/png/voysys_html.png",
+        "info" : "Voysys är en startup som bygger teknik för att streama och spela upp 360 video i VR. \n \n I framtiden så kommer alla live evenemang i världen att sändas i VR. Voysys vill bygga tekniken som gör detta möjligt. \n \n Just nu så kan vi erbjuda studenter möjligheten att besöka oss och snacka om kul teknik. Samt så behöver vi hitta duktiga iOS utvecklare för att porta vår mjukvara till iOS."
     },
     {
-    	"company":"Millenway", 
-    	"website":"www.millenway.com"
+    	"company":"Graphensic", 
+    	"website":"www.graphensic.com",
+        "img":"img/companies/png/grap_html.png",
+        "info": "Graphensic är ett företag i tillväxtfas som tillverkar grafen på kiselkarbid samt utvecklar tillämpningar för materialet. \n Vi bildades som en avknoppning från forskning vid Linköpings universitet och var då den första europeiska tillverkaren av grafen på kiselkarbid. \n I dagsläget är vi en av världens ledande tillverkare av materialet samt har breddat vår verksamhet till att även utveckla tillämpningar för materialet. \n \n Den teknikutveckling vi arbetar med kräver goda kunskaper inom elektronikkonstruktion samt intresse för praktiskt arbete.  \n De tillämpningar vi arbetar med idag är inom gassensorer, biosenorer och högfrekvenselektronik.  \n Vi arbetar också ständigt med att förbättra vår marknadsnärvaro och kommunikation med omvärlden genom digitala media. \n \n Vår vision är att skapa ett företag med kompetensen att ta grafen från forskningslabben till marknaden oavsett tillämpning. \n \n Vi erbjuder en arbetsplats som du får chansen att vara med och påverka. Här sitter inga underliga traditioner i väggarna.  \n Du kommer istället vara en del av vår tillväxtresa och själv sätta kulturen för arbetsplatsen tillsammans med VD. \n Nu råder en dynamisk miljö där resor förekommer. Vi uppskattar kreativa människor med glimten i ögat. \n \n Vi söker studenter som studerar/har studerat ED till tillfälligt arbete/praktik, potentiellt sommarjobb, heltidsanställning, examensarbete och studentprojekt eller GDK som är intresserade av att stärka upp sin portfolio med skarpa projekt."
     },
     {
-    	"company":"Interspectral", 
-    	"website":"Jones"
+        "company":"FilmVision", 
+        "website":"www.filmvision.info",
+        "img":"img/companies/png/filmvision_html.png",
+        "info": "Filmvision är placerat centralt i Norrköping och producerar reklamfilm åt företag. \n FilmVision har varit aktivt sedan 2009 men startade som startupbolag år 2014. \n \n Företaget drivs av Jonas Holmqvist och bolaget bygger på professionellt kundbemötande, samarbete mellan frilansare/småföretag, starka idéer och tillfredställande resultat."
+    },
+    {
+        "company":"Skill", 
+        "website":"www.skill.se",
+        "img":"img/companies/png/skill_html.png",
+        "info": "Skill är ett rekryterings- och bemanningsföretag som främst jobbar med att tillsätta uppdrag inom IT, teknik och administration. Tillsammans med Industrikompetens bildar vi ett av Östergötlands största bemanningsföretag, med kontor även på flera orter i Sverige. Skill grundades 1997 som en avknoppning från Linköpings universitet. Redan från start var visionen att skapa möjligheter för akademiska talanger. Detta är fortfarande en stark drivkraft för oss och vi har fortsatt en mycket tät kontakt med universitetet. \n \n Vi arbetar med flera av regionens främsta teknikbolag och hjälper dem med rekrytering av såväl nyexaminerade som mer seniora kandidater. Exempel på kunder: Vricon, Saab, Aptean, Siemens, Configura. Många nyutexaminerade ingenjörer har fått sitt första jobb genom oss men även studenter med en kandidatexamen är vi intresserade av att lära känna! \n Hur långt ska ett CV vara? Hur ska jag beskriva mitt exjobb? LinkedIn, är det något man måste ha? Att söka jobb är en utmaning som vi gärna hjälper dig med! Prata med någon av oss under NKPG Match Up så erbjuder vi kandidater med en relevant bakgrund ett karriärsamtal med någon av våra duktiga rekryteringskonsulter."
+    },
+    {
+        "company":"Minimera + Shape for Change", 
+        "website":"www.minimera.se",
+        "img":"img/companies/png/mini_html.png",
+        "info": "FÖRETAGENS VERKSAMHET \n Minimera grundades 2012 och är en webbshop för begagnade barn- och mammakläder. Målet är att göra det enklare och mer tillgängligt att återvinna och komplettera det befintliga utbudet genom en ny smart tjänst. Vi erbjuder kunden att beställa en förfrankerad Minimerapåse, fylla den med kläder och skickar in till oss. Resten sköter vi och ger kunden betalt. \n Tänk nytt – köp begagnat hos Sverige största återförsäljare av begagnade barnkläder. \n \n Shape for Change grundades 2011 och jobbar med strategier och projektledning för en hållbar modekonsumtion. Shape for Change har sedan 2015 även en fysisk butik och en webbutik med försäljning av noga utvald second hand plagg, främst till kvinna samt andra nyproducerade varor med ett tydligt hållbart och miljövänligt koncept. \n \n FÖRETAGETS VISION \n Minimera vill tillsammans med Shape for Change som ETT företag skapa nordens största plattform & handelsplats för second hand & vintage genom att erbjuda ett smart och enkelt sätt att sälja och köpa second hand. Kunden beställer en förfrankerad Minimerapåse, fyller den med det de inte längre behöver och skickar in den till oss. Vi värderar och säljer produkterna på vår hemsida och ger kunden betalt och tid över till annat. Varor som Minimera inte säljer skänks till samarbetspartners eller till forskning inom återvinning av textil. Vår vision är att det ska vara lika attraktivt och inspirerande att konsumera hållbart genom att utnyttja befintliga resurser som det är att köpa nytt. Visionen är även att knyta till hållbara tjänster för att möta kundens behov av enkelhet och inspiration till en hållbar livsstil. \n \n ERBJUDANDE \n Det än så länge visionära företaget är i ett tidigt skede men vi har en tydlig och intensiv tidsplan för att genomföra detta under ett gemensamt nytt varumärke. Detta innefattar därmed också en ny grafisk design med allt från färgval, förpackning, utskick kund, tryckt media, visuell media. Det finns också ett stort behov av att utveckla den tekniska plattformen. \n \n KOMPETENS \n Vi ser ett behov av kompetens inom främst Grafisk Design samt Kultur, Samhälle och mediegestaltning. Men även kompetens inom Medieteknik kan vara intressant då vi kommer behöva teknisk utveckling. "
+    },
+    {
+        "company":"Juste a Fair", 
+        "website":"www.justeafair.com/",
+        "img":"img/companies/png/just_html.png",
+        "info": "Juste a'Fair är ett litet företag som fokuserar på stora frågor. Mänskliga rättigheter, demokrati, hållbarhet och allas lika värde till exempel. Detta kommer till uttryck framför allt genom olika projektuppdrag som jag haft genom åren, men jag är även ute och föreläser och utbildar, t ex om Fairtrade och om Schyst resande. Som en liten extra knorr sysslar jag också med kulturarrangemang, framför allt sommartid då jag anordnar konserter i Knäppingsborg. \n \n  Jag kan ställa upp med mentorskap, det vore roligt! \n \n Vi ses den 24 februari!"
+    },
+    {
+        "company":"Angry Creative", 
+        "website":"www.angrycreative.se/",
+        "img":"img/companies/png/angry_html.png",
+        "info": "Vi är en liten webbyrå som vill göra bra saker på webben. Vi har stora ambitioner och söker dig som vill följa med oss på vår resa att skapa Sveriges största & bästa WordPress-webbyrå. \n \n Våra kunder är framförallt små och medelstora företag där vi antingen tar ett helhetsansvar för deras digitala närvaro alternativt att vi jobbar tillsammans med reklambyråer för att gemensamt leverera en helhetsupplevelse. Eftersom vi är ett litet företag under tillväxt lägger vi stor vikt vid personlig lämplighet. \n \n Vi tycker Open Source är viktigt och därför jobbar vi näst intill uteslutande med Open Source-produkter, framförallt WordPress. Vi jobbar i små, icke-hierarkiska teams där vi leder projekten med en kombination av Scrum och Kanban (Scrumban). Varje person i teamet har kundkontakt och jobbar med allt ifrån mindre supportärenden för våra befintliga kunder, till projekt som sträcker sig långt fram i tiden. \n \n För att försäkra oss om att vi ger tillbaka till Open Source-communityt så får teamet med jämna intervaller arbeta med fria projekt. Denna tid är fritt disponerbar och kan läggas på kunskapsutveckling, verktygsförbättring eller dylikt. \n \n Utöver detta lägger vi stor vikt vid automatisering och testning som en del av vår process för att skydda både våra kunder och oss själva. Vi har därför tid avsatt för att arbeta med interna produkter, vår process och automatisering varje månad. \n \n Vad söker vi för kompetens? \n Vi söker utvecklare som kan jobba med allt från databaser och php till javascript och datavisualiseringar. \n \n Vi söker front-end utvecklare som kan designa grymma saker och sedan genomföra designen i html, css, javascript & php. \n \n  Vi söker produktägare som har koll på teknik och kan ta projekt från idé till färdig produkt som man förvaltar och vidareutvecklar, samtidigt som man håller stenkoll på budget och ser till att kunderna är nöjda och glada. \n \n "
     },
     {
     	"company":"Interactive Institute",
-    	"website":"www.tii.se/"
+    	"website":"www.tii.se/",
+        "img":"img/companies/png/tii_html.png",
+        "info": "Interactive Institute C-studio i Norrköping arbetar med projektbaserad tillämpad forskning, utveckling och experimentell produktion inom området visualisering och interaktionsdesign. Genom nära samarbete med våra partners överbryggar vi akademi, industri, offentlig sektor, konst och kultur scenen. Tekniskt arbetar vi med olika plattformar och miljöer, allt från traditionella plattformar till immersiva miljöer och VR. \n \n Projekt inom studion har bland annat handlat om: \n - Digitala verktyg för grundskolan \n - Utformning av installationer \n  - Visualisering av CT-skannade mumier \n  -Verktyg till kommuner för att förbättra stadsplaneringen \n  - Utvecklat digitaliseringen inom sjukvården.\n \n Vår vision: \n  Att vi är den föredragna forsknings- och innovationspartner för ledande organisationer med fokus på de globala utmaningarna och möjligheterna i vår tid. Vi tillhandahåller en konkurrensfördel genom interaktiva lösningar, tjänster och produkter i världsklass som dramatiskt förändra och förbättra människors sätt att förstå och interagera med världen omkring dem.\n \n Vi söker: \n \n (GDK) intresserade av interaktionsdesign, digital design och användarcentrerad design. \n Färdigheter: Planera designarbete, wireframing, användarstudier, Photoshop, illustrator och after effects (animation). \n Sekundärt/bonus: 3D, InDesign, programmering \n \n (MT) intresserade av datorgrafik, visualisering och interaktion. \n Primära färdigheter för desktop :OpenGL och C++. För Web: Webgl, HTML, Javascript Sekundärt: C#, SQL \n \n (KSM) intresserade av research inom visuell design och samhällsvetenskap \n Färdigheter: vetenskaplig undersökning, författa akademiska texter, samhällsvetenskap, kulturvetenskap, analys. Bonus: Video och utställningsproduktion."
+    },
+    {
+        "company":"CGI Station AB",
+        "website":"www.cgistation.se/",
+        "img":"img/companies/png/cgi_html.png",
+        "info": "Verksamhet \n CGI Station AB är ett företag specialiserat på digital visualisering för både kommersiella och utbildande ändamål, som producerar stillbilder och animationer för webb, trycksaker och film. Vi arbetar ofta direkt mot slutkund, men även som underleverantör till reklam- och mediebyråer. Med lång erfarenhet i branschen har vi en bred kundbas, från små lokala företag/reklambyråer till globala koncerner som Schneider Electric, Scania och Siemens. Uppdragen är också högst varierande. Från visualisering av lastbilsmotorers avgasrening till funktionsbeskrivningar av tandimplantat eller säljmaterial till nya bostadsområden. ¬¬post production. Idag består CGI Station av fyra anställda – två 3D-grafiker, en bildretuschör/originalare samt en kombinerad 3D/bildretuschör. \n \n Vision\n \n Vår ambition är att vara ett naturligt förstaval för beställare av 3D-grafik samt spela en aktiv roll i utvecklingen av visualisering i regionen. Två av våra 3D-grafiker har bl.a. animerat hela den första svenskproducerade domefilmen (som är 100% CG), samt skapat 3D-grafik för Voysys VR-produktioner. Vi tror på, och strävar efter, att vara del av den visualiseringshub som just nu byggs och utvecklas i regionen, genom Visualiseringscenter m.fl. \n \n Erbjudande\n \n CGI Station erbjuder en utvecklande och inspirationsrik miljö för sina anställda. Vi är en platt organisation med högt i tak, där åsikter och värderingar ses utifrån sitt innehåll och inte sin avsändare. Vår ambition med deltagandet i NKPG Match Up är att lära känna och knyta band till kommande generations kreatörer och producenter av visualisering, eftersom vårt långsiktiga mål är att växa personal- och kunskapsmässigt för att möta marknadens växande behov. \n \n I dagsläget gör vi inga nyanställningar planerade, men erbjuder gärna endera praktikplats, exjobb, mentorskap, uppdrag eller annat som kan passa bra beroende av hur den bästa lösningen ser ut för individen och CGI Station. \n \n Kompetens \n \n Vårt dagliga arbete innebär ofta breda utmaningar. En 3D-grafiker bör ha goda kunskaper i modellering, texturering och animering, men även ha ett bra öga för ljussättning och fotografering eftersom dagens 3D-mjukvara till stor del baseras på verklighetsbaserade parametrar. En bildretuschör bör ha goda kunskaper i Photoshop och kunna utnyttja fördelarna i att comp:a renderingspass från 3D för att lyfta råa renderingar till fotorealism. Det är också bra att ha en bred allmänbildning och tycka det är roligt att lära sig nya saker, då många projekt handlar om att pedagogiskt beskriva funktioner och flöden. Det senaste året har vi på CGI Station bl.a fått lära oss skillnaden mellan en premolar- och en molar-tand, hur tryckfall och ytfriktion påverkar pumpeffekter, vilka utmaningar en robotgräsklippare har i sin vardag, hur man distribuerar fiberkabel till villaområden och mycket mer. \n \n Vi tror att studenter från samtliga utbildningar kan ha en framtid som medarbetare hos oss."
+    },
+    {
+        "company":"Perkit",
+        "website":"www.perkit.co/",
+        "img":"img/companies/png/perkit_.png",
+        "info": "empty"
+    },
+    {
+        "company":"LiU Innovation",
+        "website":"www.liuinnovation.se/",
+        "img":"img/companies/png/liu_html.png",
+        "info": "empty"
+    },
+    {
+        "company":"Unitalent",
+        "website":"www.unitalent.se/",
+        "img":"img/companies/png/unitalent_html.png",
+        "info": "empty"
+    },
+    {
+        "company":"Briteback",
+        "website":"www.briteback.com/",
+        "img":"img/companies/png/briteback_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Sitrus",
+        "website":"www.sitrus.com/",
+        "img":"img/companies/png/sitrus_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Narrative",
+        "website":"getnarrative.com/",
+        "img":"img/companies/png/narrative_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Spotify",
+        "website":"spotify.com/",
+        "img":"img/companies/png/spotify_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Demola",
+        "website":"eastsweden.demola.net",
+        "img":"img/companies/png/demola_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Norrköping Science Park",
+        "website":"eastsweden.demola",
+        "img":"img/companies/png/nosp_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Toyota Material Handling",
+        "website":"toyota-forklifts.eu/",
+        "img":"img/companies/png/toyoya_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Chargestorm",
+        "website":"chargestorm.se/",
+        "img":"img/companies/png/chargestorm_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Lifee",
+        "website":"getlifee.com/",
+        "img":"img/companies/png/lifee_.png",
+        "info": "empty"
+    },
+    {
+        "company":"Sibship",
+        "website":"sibship.se/",
+        "img":"img/companies/png/sibship_.png",
+        "info": "empty"
     }
 ]}
+
+
+

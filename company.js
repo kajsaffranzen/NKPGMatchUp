@@ -1,19 +1,16 @@
 
 var theId = localStorage.getItem('company');
+var data;
 
 console.log(theId);
 
 
-var data;
-var imgURL = "../img/companies/";
+$.getJSON("textInfo/textInfo.json", function(json) {
+    data = json; 
 
-
-	$.getJSON("textInfo/textInfo.json", function(json) {
-	    data = json; 
-
-	    changeContent(theId);
-	    	    
-	});
+    changeContent(theId);
+    	    
+});
 
 
 function prevCompany(){
@@ -22,7 +19,6 @@ function prevCompany(){
 	if(theId < 0) theId = data.all.length -1;	
 	
 	changeContent(theId);
-
 }
 
 function nextCompany(){
@@ -34,9 +30,129 @@ function nextCompany(){
 	changeContent(theId);
 }
 
+//converts the \n in json to <br> in html
+function convertToHTMLVisibleNewline(value) {
+    if (value != null && value != "") {
+        return value.replace(/\n/g, "<br/>");
+    } else {
+        return value;
+    }
+}
+
 
 function changeContent(id){
-	console.log("i changeContent: " + id);
-	document.getElementById("company").innerHTML = data.all[id].company;
-	document.getElementById("link").innerHTML = data.all[id].website;
+
+	document.getElementById("company-img").src= data.all[id].img;
+	if(data.all[id].info == "empty"){
+
+		// document.getElementById('link').setAttribute("style","height:2200px");	
+		document.getElementById("company").innerHTML = " Gå in på hemsidan för mer information. ";
+		document.getElementById("infoTxt").innerHTML = "";
+
+	}
+	else{
+		document.getElementById("company").innerHTML = data.all[id].company;
+		document.getElementById("infoTxt").innerHTML = convertToHTMLVisibleNewline(data.all[id].info);
+	}
+
+	
+	var link = document.getElementById("link");
+	var url = "http://" + data.all[id].website;
+
+	link.innerHTML = data.all[id].website;
+	link.setAttribute('href', url);
+
+	var height = window.innerHeight;
+	var divH = document.getElementById('infoTxt').offsetHeight;
+	
+	changeHeight(height, divH);
+	
 }
+
+
+function changeHeight(innerHeight, divHeight){
+		
+	var innerWidth = window.innerWidth;
+
+	if(innerWidth > 1000){
+
+		if(divHeight > 1800){
+			document.getElementById('fill').setAttribute("style","height:2200px");	
+		}
+		else if( 1250 < divHeight && divHeight < 1800){
+			document.getElementById('fill').setAttribute("style","height:1750px");	
+		}
+		else if( 1000 < divHeight && divHeight < 1250){
+			document.getElementById('fill').setAttribute("style","height:1550px");	
+		}
+		else if(800 < divHeight && divHeight < 1000){
+			document.getElementById('fill').setAttribute("style","height:1300px");	
+		}
+		else if(divHeight < 800 && divHeight > 600){
+			document.getElementById('fill').setAttribute("style","height:1000px");	
+		}
+		else
+			document.getElementById('fill').setAttribute("style","height:100%");
+	}
+	else if( 400 < innerWidth && innerWidth < 800){
+		if(divHeight > 1800){
+			document.getElementById('fill').setAttribute("style","height:2200px");	
+		}
+		else if(1200 < divHeight && divHeight < 1800){
+			document.getElementById('fill').setAttribute("style","height:2000px");	
+		}
+		else if( 800 < divHeight && divHeight < 1300){
+			document.getElementById('fill').setAttribute("style","height:1650px");	
+		}
+		else if(600 < divHeight && divHeight < 900){
+			document.getElementById('fill').setAttribute("style","height:1400px");	
+		}
+		else if(300 < divHeight && divHeight < 600){
+			document.getElementById('fill').setAttribute("style","height:1200px");	
+		}
+		else
+			document.getElementById('fill').setAttribute("style","height:100%");
+	}
+	else if(350 < innerWidth && innerWidth < 400){
+		if(divHeight > 1600){
+			document.getElementById('fill').setAttribute("style","height:2100px");
+		}
+		else if( 1200 < divHeight && divHeight < 1600){
+			document.getElementById('fill').setAttribute("style","height:1950px");	
+		}
+		else if( 800 < divHeight && divHeight < 1200){
+			document.getElementById('fill').setAttribute("style","height:1550px");	
+		}
+		else if(500 < divHeight && divHeight < 800){
+			document.getElementById('fill').setAttribute("style","height:1210px");	
+		}
+		else if(220 < divHeight && divHeight < 500){
+			document.getElementById('fill').setAttribute("style","height:800px");	
+		}
+		else
+			document.getElementById('fill').setAttribute("style","height:100%");			
+
+	}
+	else{
+		if(divHeight > 1600){
+			document.getElementById('fill').setAttribute("style","height:2100px");
+		}
+		else if( 1200 < divHeight && divHeight < 1600){
+			document.getElementById('fill').setAttribute("style","height:1750px");	
+		}
+		else if( 800 < divHeight && divHeight < 1200){
+			document.getElementById('fill').setAttribute("style","height:1550px");	
+		}
+		else if(500 < divHeight && divHeight < 800){
+			document.getElementById('fill').setAttribute("style","height:1200px");	
+		}
+		else if(220 < divHeight && divHeight < 500){
+			document.getElementById('fill').setAttribute("style","height:800px");	
+		}
+		else
+			document.getElementById('fill').setAttribute("style","height:600px");			
+
+	}
+
+}
+
