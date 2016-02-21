@@ -133,7 +133,7 @@ function changeHeight(innerHeight, divHeight){
 			document.getElementById('fill').setAttribute("style","height:100%");			
 
 	}
-	else{
+	else{	
 		if(divHeight > 1600){
 			document.getElementById('fill').setAttribute("style","height:2100px");
 		}
