@@ -98,6 +98,12 @@ body {
     margin-left: -10vw;
 }
 
+#video{
+    width: 420px;
+    height: 345px;
+    
+}
+
 
 @media (min-width: 769px) and (max-width: 992px){
 
@@ -120,8 +126,8 @@ body {
     
 
     #company{
-        font-size: 40px;
-        margin-top: 30px;
+        font-size: 30px;
+        margin-top: 25px;
     }
 
     #company-img{
@@ -130,12 +136,17 @@ body {
     }
 
     #infoTxt{
-        font-size: 25px;
+        font-size: 19px;
         font-weight: lighter;
     }
 
     #website, #link{
         font-size: 30px;
+    }
+
+    #video{
+        width: 522px;
+        margin-left: 14vw;
     }
 
 
@@ -154,6 +165,12 @@ body {
         /*width: 100px;*/
         width: 600px;
         margin-left: 8vw;
+    }
+    #video{
+        height: 209px;
+        width: 570px;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
     }
 }
 
@@ -180,6 +197,12 @@ body {
     }
     #infoTxt{
     	font-size: 0.9em;
+    }
+    #video{
+        height: 209px;
+        width: 300px;
+        margin-left: 6vw;
+        margin-bottom: 5vh;
     }
 
 }
@@ -214,6 +237,13 @@ body {
     #infoTxt{
         font-size: 0.9em;
         font-weight: lighter;
+    }
+
+    #video{
+        height: 209px;
+        width: 270px;
+        margin-left: 2vw;
+        margin-bottom: 5vh;
     }
 
 
