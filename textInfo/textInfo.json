@@ -14,7 +14,7 @@
     {
         "company":"FilmVision", 
         "website":"www.filmvision.info",
-        "img":"img/companies/png/filmvision_html.png",
+        "img":"img/companies/png/filmvision_.png",
         "info": "Filmvision är placerat centralt i Norrköping och producerar reklamfilm åt företag. \n FilmVision har varit aktivt sedan 2009 men startade som startupbolag år 2014. \n \n Företaget drivs av Jonas Holmqvist och bolaget bygger på professionellt kundbemötande, samarbete mellan frilansare/småföretag, starka idéer och tillfredställande resultat."
     },
     {
@@ -57,7 +57,7 @@
         "company":"Perkit",
         "website":"www.perkit.co/",
         "img":"img/companies/png/perkit_.png",
-        "info": "empty"
+        "info": "Perkit är ett motivationshöjande verktyg för företag som vill aktivera och motivera sin anställda. Man kan se oss som ett avancerat stegräkningsföretag 2016 där allt sker automatiskt och alla typer av motionsaktivitet är tillgängliga (alltså inte bara promenader). Så oavsett om man vill träna på gym,  spela fotboll eller utövar yoga så kan man delta i företagets friskvårdsaktivitet. Vi har skapat ett system som inhämtar data från populära fitness appar och aktivitetsarmband och sedan konverteras den datan till ett poängsystem. Poängen används för att mäta framsteg men även som en lokal valuta för att lösa in uppmuntrande belöningar från företaget men även Perkits samarbetspartners. "
     },
     {
         "company":"LiU Innovation",
@@ -84,16 +84,10 @@
         "info": "empty"
     },
     {
-        "company":"Narrative",
-        "website":"getnarrative.com/",
-        "img":"img/companies/png/narrative_.png",
-        "info": "empty"
-    },
-    {
-        "company":"Spotify",
-        "website":"spotify.com/",
-        "img":"img/companies/png/spotify_.png",
-        "info": "empty"
+        "company":"Syncore Technologies",
+        "website":"syncore.se/",
+        "img":"img/companies/png/syncore_.png",
+        "info": "Syncore Technologies utvecklar inbyggda system – från idé till färdig produkt. I praktiken innebär det att vi hjälper företag från förstudie och kravställning, vidare till serieproduktion och förvaltning. Från enskilda detaljer till hela system. Och vi gör det med design, mjukvara och hårdvara. Hos oss får du arbeta med utveckling av framtidens inbyggda system för många olika branscher. \n \n För oss handlar inbyggda system om långsiktighet. Att förstå kundens världsbild och deras behov. Att finnas där genom hela produktlivscykeln och sätta nya gränser för vad som är tekniskt möjligt. Allt för att öka värdet av den slutliga produkten. Därför använder vi gärna ord som kraft och kreativitet. Vi ska vara det självklara valet för utvecklingsintensiva företag.​ \n \n Vår vision är att Syncore skall vara den bästa partnern för utveckling av inbyggda system. \n \n Vi söker studenter som studerar ED för arbete med utveckling av avancerade inbyggda system."
     },
     {
         "company":"Demola",
@@ -130,8 +124,17 @@
         "website":"sibship.se/",
         "img":"img/companies/png/sibship_.png",
         "info": "empty"
+    },
+    {
+        "company":"Spotify",
+        "website":"spotify.com/",
+        "img":"img/companies/png/spotify_.png",
+        "info": "empty"
     }
+    
 ]}
+
+
 
 
 
