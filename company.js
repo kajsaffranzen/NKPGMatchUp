@@ -70,7 +70,6 @@ function changeContent(id){
 	}
 	else{
 		var source = data.all[id].video + "&output=embed";
-		console.log(source)
 		document.getElementById("video").src = data.all[id].video;
 		document.getElementById('video').setAttribute("style","height:345px");
 		videoDiv = 400;
