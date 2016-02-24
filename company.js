@@ -2,7 +2,7 @@
 var theId = localStorage.getItem('company');
 var data;
 
-console.log(theId);
+// console.log(theId);
 
 
 $.getJSON("textInfo/textInfo.json", function(json) {
@@ -44,6 +44,7 @@ function changeContent(id){
 
 	var videoDiv = 0;
 	var innerWidth = window.innerWidth;
+
 
 	document.getElementById("company-img").src= data.all[id].img;
 	if(data.all[id].info == "empty"){
@@ -94,17 +95,24 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 		
 	var innerWidth = window.innerWidth;
 
+
 	if(innerWidth > 1000){
 
 		if(divHeight > 1800){
 
 			document.getElementById('fill').setAttribute("style","height:2400px");	
 		}
+		else if( (1250 < divHeight && divHeight < 1800) && videoDiv != 0){
+			document.getElementById('fill').setAttribute("style","height:1700px");	
+		}
 		else if( 1250 < divHeight && divHeight < 1800){
 			document.getElementById('fill').setAttribute("style","height:1900px");	
 		}
 		else if( 1000 < divHeight && divHeight < 1250){
 			document.getElementById('fill').setAttribute("style","height:1550px");	
+		}
+		else if((800 < divHeight && divHeight <= 1000) && divHeight != 0){
+			document.getElementById('fill').setAttribute("style","height:1500px");	
 		}
 		else if(800 < divHeight && divHeight < 1000){
 			document.getElementById('fill').setAttribute("style","height:1300px");	
@@ -113,11 +121,9 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 			document.getElementById('fill').setAttribute("style","height:1100px");	
 		}
 		else if(divHeight < 600 && videoDiv != 0){
-			console.log("very special");
 			document.getElementById('fill').setAttribute("style","height:1100px");
 		}
 		else{
-			console.log("i else")
 			document.getElementById('fill').setAttribute("style","height:100%");
 		}
 			
@@ -131,6 +137,9 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 		}
 		else if(1200 < divHeight && divHeight < 1800){
 			document.getElementById('fill').setAttribute("style","height:2000px");	
+		}
+		else if( (800 < divHeight && divHeight < 1300) && videoDiv != 0){
+			document.getElementById('fill').setAttribute("style","height:2550px");	
 		}
 		else if( 800 < divHeight && divHeight < 1300){
 			document.getElementById('fill').setAttribute("style","height:2050px");	
@@ -160,6 +169,9 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 		else if(1200 < divHeight && divHeight < 1800){
 			document.getElementById('fill').setAttribute("style","height:2000px");	
 		}
+		else if( (800 < divHeight && divHeight < 1300) && divHeight != 0){
+			document.getElementById('fill').setAttribute("style","height:2100px");	
+		}
 		else if( 800 < divHeight && divHeight < 1300){
 			document.getElementById('fill').setAttribute("style","height:1770px");	
 		}
@@ -186,6 +198,9 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 			document.getElementById('fill').setAttribute("style","height:2350px");	
 		}
 		else if( 1200 < divHeight && divHeight < 1600){
+			document.getElementById('fill').setAttribute("style","height:1950px");	
+		}
+		else if( (800 < divHeight && divHeight < 1200) && divHeight != 0){
 			document.getElementById('fill').setAttribute("style","height:1950px");	
 		}
 		else if( 800 < divHeight && divHeight < 1200){
@@ -219,7 +234,7 @@ function changeHeight(innerHeight, divHeight, videoDiv){
 			document.getElementById('fill').setAttribute("style","height:1750px");	
 		}
 		else if( (800 < divHeight && divHeight < 1200) && videoDiv != 0){
-			document.getElementById('fill').setAttribute("style","height:1750px");	
+			document.getElementById('fill').setAttribute("style","height:1900px");	
 		}
 		else if( 800 < divHeight && divHeight < 1200){
 			document.getElementById('fill').setAttribute("style","height:1550px");	
