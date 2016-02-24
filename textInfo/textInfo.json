@@ -154,8 +154,28 @@
         "img":"img/companies/png/spotify_.png",
         "info": "empty",
         "video": "empty"
+    },
+    {
+        "company":"GreatRate",
+        "website":"http://www.greatrate.se/",
+        "img":"img/companies/logo_great.png",
+        "info": "empty",
+        "video": "empty"
+    },
+    {
+        "company":"Cybercom",
+        "website":"http://www.cybercom.com/sv/",
+        "img":"img/companies/logo_cyber.png",
+        "info": "empty",
+        "video": "empty"
+    },
+    {
+        "company":"Syncore",
+        "website":"http://www.syncore.se/",
+        "img":"img/companies/logo_syncore.png",
+        "info": "empty",
+        "video": "empty"
     }
-    
 ]}
 
 
